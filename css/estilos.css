@@ -148,6 +148,7 @@ footer {
     width: 300px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-bottom: 10px;
 
 }
 
