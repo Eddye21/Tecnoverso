@@ -1,0 +1,26 @@
+.main-foros {
+    .tituloforos{
+        text-align: center;
+        background-color: $color-secundario;
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+    }
+    .card-body {
+        @extend %estilos-card;
+        .card-text {
+            color: $color-texto;
+        }
+        .btn {
+            color: $color-secundario;
+            &:hover {
+                @include hover( 0.8s, $color-secundario, $color-principal );
+            }
+        }
+    }
+}
+
+.footer-foros{
+    margin-top: 50px;
+}

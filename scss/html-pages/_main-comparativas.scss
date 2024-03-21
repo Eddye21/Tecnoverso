@@ -1,0 +1,22 @@
+.main-comparativas {
+    h1 {
+        text-align: center;
+        background-color: $color-secundario;
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+    }
+    .pc {
+        @extend %estilos-tituloVV;
+    }
+    .laptop {
+        @extend %estilos-tituloR;
+    }
+    .consola {
+        background-color: $color-secundario;
+    }
+    h2 {
+        @include subtitulos(center, 1rem);
+    }
+}

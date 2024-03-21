@@ -1,0 +1,40 @@
+/*Media queries*/
+/*Media queris tablet*/
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        nav {
+            ul {
+                flex-direction: row;
+                padding-right: 3rem;
+                column-gap: 10px;
+                width: 100%;
+            }
+        }
+    }
+    .main-index {
+        .contenedor-imagenes {
+            grid-template-columns: repeat(2, 300px);
+            grid-template-rows: repeat(2, 400px);
+            justify-content: center;
+            grid-template-areas:
+                "img1 img2"
+                "img3 img3";
+        }
+    }
+}
+
+/*Media queries desktop*/
+@media screen and (min-width: 1024px) {
+    .main-index {
+        .contenedor-imagenes {
+            grid-template-columns: repeat(3, 400px);
+            grid-template-rows: 1fr;
+            justify-content: center;
+            grid-template-areas:
+                "img1 img2 img3"
+                "img1 img2 img3";
+        }
+    }
+}

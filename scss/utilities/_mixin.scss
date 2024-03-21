@@ -1,0 +1,13 @@
+@mixin subtitulos( $text-align, $border-radius){
+    text-align: center;
+    border-radius: 1rem;
+}
+
+@mixin hover($transition, $background-color, $color){
+        transition: 0.8s;
+        background-color: $color-secundario;
+        color:$color-principal;
+        box-shadow: -3px 10px 113px 15px rgba(17,119,70,0.75);
+        -webkit-box-shadow: -3px 10px 113px 15px rgba(17,119,70,0.75);
+        -moz-box-shadow: -3px 10px 113px 15px rgba(17,119,70,0.75);
+}
