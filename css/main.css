@@ -148,6 +148,7 @@ header nav li:hover {
 .main-index #texto {
   color: rgb(255, 255, 255);
   background-color: #1e1e1e;
+  text-align: justify;
   margin-left: 1rem;
   margin-right: 1rem;
   padding: 0.5%;
