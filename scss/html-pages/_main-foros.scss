@@ -7,6 +7,9 @@
         justify-content: center;
         border-radius: 1rem;
     }
+    .card{
+        background: none
+    }
     .card-body {
         @extend %estilos-card;
         .card-text {

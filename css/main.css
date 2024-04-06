@@ -56,6 +56,9 @@ main .conteiner {
   padding-bottom: 2rem;
   column-gap: 1rem;
 }
+main .conteiner .card {
+  background: none;
+}
 main .conteiner .card-body {
   background-color: #1e1e1e;
   display: flex;
@@ -101,9 +104,6 @@ header nav li .btn {
   text-decoration: none;
 }
 header nav li:hover {
-  box-shadow: -3px 10px 113px 15px rgba(17, 119, 70, 0.75);
-  -webkit-box-shadow: -3px 10px 113px 15px rgba(17, 119, 70, 0.75);
-  -moz-box-shadow: -3px 10px 113px 15px rgba(17, 119, 70, 0.75);
   transition: 1.21s;
   color: rgb(137, 235, 137);
   border-bottom: 1px solid rgb(137, 235, 137);
@@ -156,6 +156,12 @@ header nav li:hover {
   text-align: center;
   border-radius: 1rem;
   margin-bottom: 20px;
+}
+.main-index .card {
+  background: none;
+}
+.main-index .card-body {
+  top: 0;
 }
 .main-index .card-body .card-text {
   color: rgb(255, 255, 255);
@@ -262,6 +268,9 @@ header nav li:hover {
   display: flex;
   justify-content: center;
   border-radius: 1rem;
+}
+.main-foros .card {
+  background: none;
 }
 .main-foros .card-body .card-text {
   color: rgb(255, 255, 255);

@@ -54,16 +54,20 @@
             margin-bottom: 20px;
         }
     }
-    .card-body {
-        @extend %estilos-card;
-        .card-text {
-            color:$color-texto;
+        .card{
+            background: none;
         }
-        .btn {
-            color: $color-secundario;
-            &:hover {
-                @include hover(0.8s, $color-secundario, $color-principal);
-            }
+        .card-body {
+            @extend %estilos-card;
+            top: 0;
+                .card-text {
+                color:$color-texto;
+                }
+                .btn {
+                color: $color-secundario;
+                    &:hover {
+                    @include hover(0.8s, $color-secundario, $color-principal);
+                    }
+                }
         }
     }
-}

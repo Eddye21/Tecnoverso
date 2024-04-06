@@ -20,11 +20,9 @@ header {
                 color: $color-texto;
                 text-decoration: none;
                 
+                
             }
             &:hover {
-                box-shadow: -3px 10px 113px 15px rgba(17,119,70,0.75);
-                -webkit-box-shadow: -3px 10px 113px 15px rgba(17,119,70,0.75);
-                -moz-box-shadow: -3px 10px 113px 15px rgba(17,119,70,0.75);
                 transition: 1.21s;
                 color: $color-secundario;
                 border-bottom: 1px solid $color-secundario

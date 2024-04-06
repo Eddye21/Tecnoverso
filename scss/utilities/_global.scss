@@ -28,6 +28,10 @@ main{
         padding-top: 2rem;
         padding-bottom: 2rem;
         column-gap: 1rem;
+    
+    .card{
+        background: none;
+    }
     .card-body {
         background-color: $color-principal;
         display: flex;
