@@ -5,11 +5,12 @@ header {
     flex-wrap: wrap;
     align-items: center;
     img {
-        padding-left: 2rem;
+        padding-left: 1rem;
     }
     nav {
         
         ul {
+            padding-right: 1.5rem;
             list-style-type: none;
             display: flex;
             flex-direction: column;
