@@ -93,6 +93,7 @@ header {
 }
 header img {
   padding-left: 1rem;
+  width: 100px;
 }
 header nav ul {
   padding-right: 1.5rem;
