@@ -21,6 +21,10 @@
             background-color: $color-secundario;
             @include subtitulos(center, 1rem);
         }
+        h3{
+            padding: 1rem 1rem 1rem 1rem;
+        }
+
     }
     #inteligencia-artificial {
         @extend %estilos-tituloVV;

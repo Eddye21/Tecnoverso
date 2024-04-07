@@ -5,8 +5,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     img {
-        width: 100px;
-        
+        padding-left: 2rem;
     }
     nav {
         
@@ -14,13 +13,14 @@ header {
             list-style-type: none;
             display: flex;
             flex-direction: column;
+            
         }
         li {
             .btn {
                 color: $color-texto;
                 text-decoration: none;
-                
-                
+                display:flex;
+                justify-content: center;
             }
             &:hover {
                 transition: 1.21s;
