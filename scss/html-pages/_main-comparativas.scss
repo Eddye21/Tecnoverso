@@ -1,7 +1,6 @@
 .main-comparativas {
     h1 {
         text-align: center;
-<<<<<<< HEAD
         color: $color-texto;
         font-size: $altura-principal;
         font-family: $texto;
@@ -14,26 +13,13 @@
     }
     .pc {
 
-=======
-        background-color: $color-secundario;
-        margin: 1rem;
-        display: flex;
-        justify-content: center;
-        border-radius: 1rem;
-    }
-    .pc {
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
         @extend %estilos-tituloVV;
     }
     .laptop {
         @extend %estilos-tituloR;
     }
     .consola {
-<<<<<<< HEAD
         @extend %estilos-tituloC;
-=======
-        background-color: $color-secundario;
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
     }
     h2 {
         @include subtitulos(center, 1rem);

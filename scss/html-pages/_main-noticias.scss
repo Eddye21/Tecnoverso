@@ -9,7 +9,6 @@
         }
     }
     .titulonoticias{
-<<<<<<< HEAD
         font-size: 3rem;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-style: italic;
@@ -22,18 +21,6 @@
     section{
         h2{
             // background-color: $color-secundario;
-=======
-        text-align: center;
-        background-color: $color-secundario;
-        margin: 1rem;
-        display: flex;
-        justify-content: center;
-        border-radius: 1rem;
-    }
-    section{
-        h2{
-            background-color: $color-secundario;
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
             @include subtitulos(center, 1rem);
         }
         h3{
@@ -42,7 +29,6 @@
 
     }
     #inteligencia-artificial {
-<<<<<<< HEAD
         padding-top: 2rem;
     @extend %estilos-tituloVV;
     }
@@ -53,15 +39,6 @@
     #videojuegos {
         padding-top: 2rem;
         @extend %estilos-tituloVJ;
-=======
-        @extend %estilos-tituloVV;
-    }
-    #computacion {
-        @extend %estilos-tituloR;
-    }
-    #videojuegos {
-        background-color: $color-secundario;
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
     }
     
     .titulonews {

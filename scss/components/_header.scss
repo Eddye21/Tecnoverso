@@ -4,10 +4,7 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-<<<<<<< HEAD
     padding: 2rem;
-=======
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
     img {
         padding-left: 1rem;
         width: 100px;
@@ -24,7 +21,6 @@ header {
         li {
             .btn {
                 color: $color-texto;
-<<<<<<< HEAD
                 font-style: italic;
                 text-decoration: none;
                 background:transparent;
@@ -32,22 +28,13 @@ header {
                 justify-content: center;
                 font-size: 1.1rem;
                 
-=======
-                text-decoration: none;
-                display:flex;
-                justify-content: center;
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
             }
             &:hover {
                 transition: 1.21s;
                 color: $color-secundario;
-<<<<<<< HEAD
                 border-bottom: 1px solid $color-secundario;
 
                 
-=======
-                border-bottom: 1px solid $color-secundario
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
             }
         }
     }

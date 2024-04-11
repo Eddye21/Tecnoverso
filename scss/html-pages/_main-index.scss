@@ -1,7 +1,6 @@
 .main-index {
     .h1index {
         text-align: center;
-<<<<<<< HEAD
         font-size: 3rem;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-style: italic;
@@ -11,13 +10,6 @@
         display: flex;
         justify-content: center;
         
-=======
-        background-color: $color-secundario;
-        margin: 1rem;
-        display: flex;
-        justify-content: center;
-        border-radius: 1rem;
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
     }
     .contenedor-imagenes {
         display: grid;
@@ -51,37 +43,24 @@
             box-shadow: -3px 10px 113px 15px rgba(17,51,119,0.75);
             -webkit-box-shadow: -3px 10px 113px 15px rgba(17,51,119,0.75);
             -moz-box-shadow: -3px 10px 113px 15px rgba(17,51,119,0.75);
-<<<<<<< HEAD
             margin-bottom: 3rem;
-=======
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
         }
     }
     #texto {
         color: $color-texto;
         background-color:$color-principal;
-<<<<<<< HEAD
         text-align: start;
-=======
-        text-align: justify;
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
         margin-left: 1rem;
         margin-right: 1rem;
         padding: 0.5%;
     }
     section {
         h2 {
-<<<<<<< HEAD
             color: $color-texto;
             @include subtitulos( center, 1rem);
             padding: 2rem 4rem;
             font-size: 2rem;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-=======
-            background-color: $color-secundario;
-            @include subtitulos( center, 1rem);
-            margin-bottom: 20px;
->>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
         }
     }
         .card{
