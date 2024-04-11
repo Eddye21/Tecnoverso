@@ -1,0 +1,41 @@
+header {
+    background-color: $color-principal;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem;
+    img {
+        padding-left: 1rem;
+        width: 100px;
+    }
+    nav {
+        
+        ul {
+            padding-right: 1.5rem;
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        li {
+            .btn {
+                color: $color-texto;
+                font-style: italic;
+                text-decoration: none;
+                background:transparent;
+                display:flex;
+                justify-content: center;
+                font-size: 1.1rem;
+                
+            }
+            &:hover {
+                transition: 1.21s;
+                color: $color-secundario;
+                border-bottom: 1px solid $color-secundario;
+
+                
+            }
+        }
+    }
+}

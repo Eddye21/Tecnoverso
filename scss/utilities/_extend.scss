@@ -1,0 +1,53 @@
+%estilos-card{
+        background-color: $color-principal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 1rem;
+        box-shadow: 15px -12px 103px 34px rgba(17,17,153,0.36);
+        -webkit-box-shadow: 15px -12px 103px 34px rgba(17,17,153,0.36);
+        -moz-box-shadow: 15px -12px 103px 34px rgba(17,17,153,0.36);
+        a {
+            width: 200px;
+        }
+}
+
+%estilos-tituloR{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 15%;
+    width: 70vw;
+    text-align: center;
+    color: rgb(198, 154, 238);
+    border-bottom: 2px dotted rgb(198, 154, 238);
+    border-radius: 1rem;
+}
+
+%estilos-tituloVV{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 15%;
+    width: 70vw;
+    text-align: center;
+    color: rgb(168, 243, 218);
+    border-bottom: 2px dotted rgb(168, 243, 218);
+    border-radius: 1rem;
+}
+
+%estilos-tituloC{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 15%;
+    width: 70vw;
+    text-align: center;
+    color: $color-secundario;
+    border-bottom: 2px dotted $color-secundario;
+    border-radius: 1rem;
+}
+
+%estilos-tituloVJ{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 15%;
+    width: 70vw;
+    text-align: center;
+    color: $color-secundario;
+    border-bottom: 2px dotted $color-secundario;
+    border-radius: 1rem;
+}

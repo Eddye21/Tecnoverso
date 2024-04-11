@@ -1,0 +1,18 @@
+.main-tutoriales {
+    section {
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: italic;
+            color: $color-texto;
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+.footer-tutoriales{
+    margin-top: 200px;
+}

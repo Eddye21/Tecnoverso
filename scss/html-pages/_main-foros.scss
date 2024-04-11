@@ -1,0 +1,33 @@
+.main-foros {
+    .tituloforos{
+        text-align: center;
+        font-size: 3rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+        color: $color-texto;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+
+    }
+    .card{
+        background: none
+    }
+    .card-body {
+        @extend %estilos-card;
+        .card-text {
+            color: $color-texto;
+        }
+        .btn {
+            color: $color-secundario;
+            &:hover {
+                @include hover( 0.8s, $color-secundario, $color-principal );
+            }
+        }
+    }
+}
+
+.footer-foros{
+    margin-top: 50px;
+}

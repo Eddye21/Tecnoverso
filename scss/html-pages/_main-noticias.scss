@@ -1,0 +1,70 @@
+.main-noticias{
+    section{
+        .btn {
+            color: $color-texto;
+            text-decoration: none;
+            &:hover {
+                @include hover(0.8s, $color-secundario, $color-principal);
+            }
+        }
+    }
+    .titulonoticias{
+        font-size: 3rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+        color: $color-texto;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    section{
+        h2{
+            // background-color: $color-secundario;
+            @include subtitulos(center, 1rem);
+        }
+        h3{
+            padding: 1rem 1rem 1rem 1rem;
+        }
+
+    }
+    #inteligencia-artificial {
+        padding-top: 2rem;
+    @extend %estilos-tituloVV;
+    }
+    #computacion {
+        padding-top: 2rem;
+        @extend %estilos-tituloR;
+    }
+    #videojuegos {
+        padding-top: 2rem;
+        @extend %estilos-tituloVJ;
+    }
+    
+    .titulonews {
+        border-radius: 3rem;
+        text-align: center;
+        border: 1px solid $color-principal;
+    }
+    .newsi, .newsc, .newsf{
+        background-color: $color-principal;
+        color: $color-texto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 2rem;
+        box-shadow: 15px -12px 103px 34px rgba(168,243,218,0.36);
+        -webkit-box-shadow: 15px -12px 103px 34px rgba(168,243,218,0.36);
+        -moz-box-shadow: 15px -12px 103px 34px rgba(168,243,218,0.36);
+    }
+    .newsc{
+        box-shadow: 15px -12px 103px 34px rgba(198,154,238,0.36);
+        -webkit-box-shadow: 15px -12px 103px 34px rgba(198,154,238,0.36);
+        -moz-box-shadow: 15px -12px 103px 34px rgba(198,154,238,0.36);
+    }
+    
+    .newsf{
+        box-shadow: 15px -12px 103px 34px rgba(137,235,137,0.36);
+        -webkit-box-shadow: 15px -12px 103px 34px rgba(137,235,137,0.36);
+        -moz-box-shadow: 15px -12px 103px 34px rgba(137,235,137,0.36);
+    }
+}
