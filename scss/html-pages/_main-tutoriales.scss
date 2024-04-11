@@ -1,6 +1,7 @@
 .main-tutoriales {
     section {
         h1 {
+<<<<<<< HEAD
             text-align: center;
             font-size: 3rem;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -10,6 +11,14 @@
             padding-bottom: 3rem;
             display: flex;
             justify-content: center;
+=======
+        text-align: center;
+        background-color: $color-secundario;
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
         }
     }
 }

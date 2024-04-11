@@ -13,6 +13,7 @@
 }
 
 .main-comparativas .laptop, .main-noticias #computacion {
+<<<<<<< HEAD
   padding: 1rem 1rem 1rem 1rem;
   margin-left: 15%;
   width: 70vw;
@@ -50,6 +51,13 @@
   color: rgb(137, 235, 137);
   border-bottom: 2px dotted rgb(137, 235, 137);
   border-radius: 1rem;
+=======
+  background-color: rgb(198, 154, 238);
+}
+
+.main-comparativas .pc, .main-noticias #inteligencia-artificial {
+  background-color: rgb(168, 243, 218);
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 
 * {
@@ -122,7 +130,10 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+<<<<<<< HEAD
   padding: 2rem;
+=======
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 header img {
   padding-left: 1rem;
@@ -136,12 +147,18 @@ header nav ul {
 }
 header nav li .btn {
   color: rgb(255, 255, 255);
+<<<<<<< HEAD
   font-style: italic;
   text-decoration: none;
   background: transparent;
   display: flex;
   justify-content: center;
   font-size: 1.1rem;
+=======
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 header nav li:hover {
   transition: 1.21s;
@@ -151,6 +168,7 @@ header nav li:hover {
 
 .main-index .h1index {
   text-align: center;
+<<<<<<< HEAD
   font-size: 3rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: italic;
@@ -159,6 +177,13 @@ header nav li:hover {
   padding-bottom: 3rem;
   display: flex;
   justify-content: center;
+=======
+  background-color: rgb(137, 235, 137);
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 .main-index .contenedor-imagenes {
   display: grid;
@@ -187,23 +212,37 @@ header nav li:hover {
   box-shadow: -3px 10px 113px 15px rgba(17, 51, 119, 0.75);
   -webkit-box-shadow: -3px 10px 113px 15px rgba(17, 51, 119, 0.75);
   -moz-box-shadow: -3px 10px 113px 15px rgba(17, 51, 119, 0.75);
+<<<<<<< HEAD
   margin-bottom: 3rem;
+=======
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 .main-index #texto {
   color: rgb(255, 255, 255);
   background-color: #1e1e1e;
+<<<<<<< HEAD
   text-align: start;
+=======
+  text-align: justify;
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
   margin-left: 1rem;
   margin-right: 1rem;
   padding: 0.5%;
 }
 .main-index section h2 {
+<<<<<<< HEAD
   color: rgb(255, 255, 255);
   text-align: center;
   border-radius: 1rem;
   padding: 2rem 4rem;
   font-size: 2rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+=======
+  background-color: rgb(137, 235, 137);
+  text-align: center;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 .main-index .card {
   background: none;
@@ -239,6 +278,7 @@ header nav li:hover {
   -moz-box-shadow: -3px 10px 113px 15px rgba(17, 119, 70, 0.75);
 }
 .main-noticias .titulonoticias {
+<<<<<<< HEAD
   font-size: 3rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: italic;
@@ -249,12 +289,24 @@ header nav li:hover {
   justify-content: center;
 }
 .main-noticias section h2 {
+=======
+  text-align: center;
+  background-color: rgb(137, 235, 137);
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.main-noticias section h2 {
+  background-color: rgb(137, 235, 137);
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
   text-align: center;
   border-radius: 1rem;
 }
 .main-noticias section h3 {
   padding: 1rem 1rem 1rem 1rem;
 }
+<<<<<<< HEAD
 .main-noticias #inteligencia-artificial {
   padding-top: 2rem;
 }
@@ -263,6 +315,10 @@ header nav li:hover {
 }
 .main-noticias #videojuegos {
   padding-top: 2rem;
+=======
+.main-noticias #videojuegos {
+  background-color: rgb(137, 235, 137);
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 .main-noticias .titulonews {
   border-radius: 3rem;
@@ -292,6 +348,7 @@ header nav li:hover {
 
 .main-tutoriales section h1 {
   text-align: center;
+<<<<<<< HEAD
   font-size: 3rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: italic;
@@ -300,6 +357,13 @@ header nav li:hover {
   padding-bottom: 3rem;
   display: flex;
   justify-content: center;
+=======
+  background-color: rgb(137, 235, 137);
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 
 .footer-tutoriales {
@@ -308,6 +372,7 @@ header nav li:hover {
 
 .main-comparativas h1 {
   text-align: center;
+<<<<<<< HEAD
   color: rgb(255, 255, 255);
   font-size: 3rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -317,6 +382,16 @@ header nav li:hover {
   justify-content: center;
   padding-top: 1rem;
   padding-bottom: 3rem;
+=======
+  background-color: rgb(137, 235, 137);
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.main-comparativas .consola {
+  background-color: rgb(137, 235, 137);
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 .main-comparativas h2 {
   text-align: center;
@@ -325,6 +400,7 @@ header nav li:hover {
 
 .main-foros .tituloforos {
   text-align: center;
+<<<<<<< HEAD
   font-size: 3rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: italic;
@@ -333,6 +409,13 @@ header nav li:hover {
   padding-bottom: 3rem;
   display: flex;
   justify-content: center;
+=======
+  background-color: rgb(137, 235, 137);
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 }
 .main-foros .card {
   background: none;
@@ -360,18 +443,25 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
   border: 1px dotted rgb(137, 235, 137);
   width: 90vw;
   margin-left: 5%;
+=======
+  background-color: rgb(137, 235, 137);
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
   border-radius: 1rem;
   margin-bottom: 10px;
   margin-top: 2rem;
 }
+<<<<<<< HEAD
 footer h3 {
   color: rgb(255, 255, 255);
   font-style: italic;
   font-size: 2rem;
 }
+=======
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
 footer .iconsredes {
   display: flex;
   flex-direction: row;
@@ -381,6 +471,7 @@ footer .iconsredes {
   padding-bottom: 1rem;
 }
 footer .iconsredes .redes-sociales {
+<<<<<<< HEAD
   max-height: 45px;
   background-color: rgb(137, 235, 137);
   border-radius: 10px;
@@ -389,6 +480,13 @@ footer .iconsredes .redes-sociales:hover {
   transition: 1s;
   border: 2px solid rgb(137, 235, 137);
   background-color: #1e1e1e;
+=======
+  max-height: 40px;
+  border-radius: 20%;
+}
+footer .iconsredes .redes-sociales:hover {
+  transition: 1s;
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
   border-radius: 50%;
 }
 

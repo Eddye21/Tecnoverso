@@ -1,6 +1,7 @@
 .main-foros {
     .tituloforos{
         text-align: center;
+<<<<<<< HEAD
         font-size: 3rem;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-style: italic;
@@ -10,6 +11,13 @@
         display: flex;
         justify-content: center;
 
+=======
+        background-color: $color-secundario;
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+>>>>>>> 85d494ffd661bc56b8787ec38314c04daa14318f
     }
     .card{
         background: none
