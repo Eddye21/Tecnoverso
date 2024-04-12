@@ -366,6 +366,12 @@ footer {
   border-radius: 1rem;
   margin-bottom: 10px;
   margin-top: 2rem;
+  padding: 1rem 1rem;
+}
+footer h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
 }
 footer .iconsredes {
   display: flex;
